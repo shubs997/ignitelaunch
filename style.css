@@ -2,10 +2,32 @@
 
 body {
     overflow-x: hidden;
-    
+    overflow-y: hidden;
     background-color: #2b2141;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+}
+
+
+.btn-left{
+  position: absolute;
+  top: 88vh;
+  left: 3vw;
+}
+.btn-left a {
+  color: #fff;
+  text-transform: uppercase;
+  border: 2px solid #fff;
+  padding: 5px;
+  font-weight: bold;
+  transition: all .5s ease-in-out;
+  text-align: center;
+}
+.btn-left a:hover {
+  color: #000;
+  background-color: #0cd1eb;
+  text-decoration: none;
+  border-color: #0cd1eb;
 }
 /*Nav Bar*/
 
@@ -500,7 +522,7 @@ nav.shift ul li a:hover:after {
     float: right;
     list-style-type: none;
     /* top: 20%; */
-    left: 42%;
+    left: 30%;
   }
 }
 @media screen and (max-width: 1119px) {
@@ -510,29 +532,20 @@ nav.shift ul li a:hover:after {
     float: right;
     list-style-type: none;
     /* top: 20%; */
-    left: 42%;
+    left: 27%;
   }
 }
-@media screen and (max-width: 1066px) {
+@media screen and (max-width: 1070px) {
   .vnav  {
     display: block;
     position: absolute;
     float: right;
     list-style-type: none;
     /* top: 20%; */
-    left: 40%;
+    left: 20%;
   }
 }
-@media screen and (max-width: 1068px) {
-  .vnav  {
-    display: block;
-    position: absolute;
-    float: right;
-    list-style-type: none;
-    /* top: 20%; */
-    left: 38%;
-  }
-}
+
 @media screen and (max-width: 1000px) {
   .vnav  {
     display: block;
@@ -540,31 +553,19 @@ nav.shift ul li a:hover:after {
     float: right;
     list-style-type: none;
     /* top: 20%; */
-    left: 35%;
   }
 }
-@media screen and (max-width: 955px) {
+@media screen and (max-width: 974px) {
   .vnav  {
     display: block;
     position: absolute;
     float: right;
     list-style-type: none;
     /* top: 20%; */
-    left: 30%;
+    left: 16%;
   }
 }
-@media screen and (max-width: 930px) {
-  .vnav  {
-    display: block;
-    position: absolute;
-    float: right;
-    list-style-type: none;
-    /* top: 20%; */
-    left: 30%;
-  }
-}
-
-@media screen and (max-width: 900px){
+@media screen and (max-width: 960px) {
   #btn {
     display: block;
   }
@@ -576,14 +577,33 @@ nav.shift ul li a:hover:after {
   }
 }
 
+@media screen and (max-width: 900px){
+
+}
+
 @media screen and (max-width: 550px){
   #date {
   top:40%;
+}
+.btn-left{
+  left: 28vw;
 }
 }
 @media screen and (max-width: 480px){
   #date {
   top:49%;
+}
+.btn-left{
+  left: 18vw;
+}
+}
+@media screen and (max-width: 330px){
+  #date {
+  top:49%;
+}
+.btn-left{
+  top: 94vh;
+  left: 11vw;
 }
 }
 
