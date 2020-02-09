@@ -2,7 +2,6 @@
 
 body {
     overflow-x: hidden;
-    overflow-y: hidden;
     background-color: #2b2141;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
@@ -180,6 +179,7 @@ nav.shift ul li a:hover:after {
   cursor: pointer;
   -webkit-transition: left 500ms cubic-bezier(0.6, 0.05, 0.28, 0.91);
   transition: left 500ms cubic-bezier(0.6, 0.05, 0.28, 0.91);
+
 }
 
 #btn div {
@@ -253,6 +253,10 @@ nav.shift ul li a:hover:after {
   padding: 15px 30px;
   -webkit-transition: all 250ms;
   transition: all 250ms;
+}
+
+#items .item a:hover {
+  text-decoration: none; 
 }
 
 #items .item:hover {

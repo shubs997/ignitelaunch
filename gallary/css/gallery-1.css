@@ -245,8 +245,7 @@ a{
 
 .gallery-item:hover .gallery-thumb .gallery-zoom {
     display: block;
-    left: 50%;
-    margin-left: -48px;
+    left: 60%;
 }
 
 .gallery-item:hover .gallery-thumb .gallery-link {
@@ -303,6 +302,8 @@ a{
     font-size: 14px;
     color: #fff;
     padding: 10px;
+    border: 2px solid rgb(231, 57, 14);
+    border-radius: 5px;
 }
 .filter li a:hover,
 .filter li a:focus,

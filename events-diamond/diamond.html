@@ -28,10 +28,10 @@
 		<div id="box">
 		  <div id="items">
 			<div class="item"><a href="../index.html" style="color: #fff;">Home</a></div>
-			<div class="item"><a href="events-diamond/diamond.html" style="color: #fff;">Events</a></div>
-			<div class="item"><a href="about.html" style="color: #fff;">About Us</a></div>
-			<div class="item"><a href="sponsors.html" style="color: #fff;">Sponsors</a></div>
-			<div class="item"><a href="gallary/gallery.html" style="color: #fff;">Gallery</a></div>
+			<div class="item"><a href="diamond.html" style="color: #fff;">Events</a></div>
+			<div class="item"><a href="../about.html" style="color: #fff;">About Us</a></div>
+			<div class="item"><a href="../sponsors.html" style="color: #fff;">Sponsors</a></div>
+			<div class="item"><a href="../gallary/gallery.html" style="color: #fff;">Gallery</a></div>
 		  </div>
 		</div>
 	  </header>
@@ -42,7 +42,7 @@
 				<ul class="vnav">
 					<li class="navbar-item"><a href="../index.html">Home</a></li>
 					<li class="navbar-item"><a href="../about.html">About Us</a></li>
-					<li class="navbar-item"><a href="../events-diamond/diamond.html">Events</a></li>
+					<li class="navbar-item"><a href="diamond.html">Events</a></li>
 					<li class="navbar-item"><a href="../sponsors.html">Sponsors</a></li>
 					<li class="navbar-item"><a href="../gallary/gallery.html">Gallery</a></li>
 				  </ul>
@@ -50,7 +50,7 @@
 
 		</nav>
 	
-
+	<h2 style="text-align: center;color: #fff; font-weight: bold;margin-top: 20px;">EVENTS</h2>
 	<main class="cd-main-content">
 		<!-- <h1 style="color: #fff; text-align:center; background-color:#2b2141;">EVENTS</h1> -->
 		<div class="center">
@@ -185,7 +185,7 @@
 	<div class="modal-content">
 		<h2>Brain Chase</h2>
 			<div class="tab">
-			  <button class="tablinks" onclick="openCity(event, 'Introduction1')" id="openbc">Intro</button>
+			  <button class="tablinks active" onclick="openCity(event, 'Introduction1')" id="openbc">Intro</button>
 			  <button class="tablinks" onclick="openCity(event, 'Rules1')">Rules</button>
 			  <button class="tablinks" onclick="openCity(event, 'Rounds1')">Rounds</button>
 			</div>
@@ -490,20 +490,11 @@
 
 <script  src="../script.js"></script>
 <script src="../nav.js"></script>
-
-<script>
-	function iframeLoaded() {
-		var iFrameID = document.getElementById('idIframe');
-		if(iFrameID) {
-			  // here you can make the height, I delete it first, then I make it again
-			  iFrameID.height = "";
-			  iFrameID.height = iFrameID.contentWindow.document.body.scrollHeight + "px";
-		}   
-	}
-</script>   
+  
 
 <script>
 document.getElementById("opencoc").click();
+
 function openCity(evt, cityName) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");

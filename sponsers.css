@@ -32,7 +32,10 @@ body{
   }
   
   .img-responsive-title{
-      width: 500px;
+      width: 62%;
+      /* text-align: center; */
+      margin: auto;
+      display: block;
   }
   .navbar-item{
     display: inline-block;
@@ -55,9 +58,12 @@ body{
 .heading-info h1 {
     color: #fff;
     font-size: 1.6em;
- 
     padding-left: 20px;
     border-left: 5px solid #e04627;
+}
+.heading-info-center h1{
+  font-weight: bold;
+  text-transform: uppercase;
 }
 .heading-info-center h1:after {
     content: '';

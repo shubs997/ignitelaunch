@@ -246,8 +246,25 @@ Event Logo style
   -o-transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
   -ms-transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
   transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
-  background: #000;
+  background: #3a3a3a;
   opacity: 0;
+}
+
+.ch-info .ch-info-back a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  border: 2px solid #fff;
+  padding: 5px;
+  text-transform: uppercase;
+}
+.ch-info .ch-info-back a:{
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  border: 2px solid #fff;
+  padding: 5px;
+  text-transform: uppercase;
 }
 
 .ch-img-1 { 
@@ -718,10 +735,55 @@ Animations
 
 
 
-@media only screen and (max-width: 450px) {
-    .tab button {
-      font-size: 15px;
-    }
+@media screen and (max-width: 480px) {
+  #clg-name{
+    position:absolute;
+    width:100%;
+    top:13%;
+  
+    font-size: 15px;
+    margin: auto;
+    margin-top:80px;
+    font-family:'montserrat', sans-serif;
+    color:#ffff;
+    text-align : center;
+  }
+  #ignite-name{
+    text-transform: uppercase;
+    position:absolute;
+    width:100%;
+    top:25%;
+    font-size: 300%;
+    font-weight: bold;
+    margin: auto;
+    margin-top:80px;
+    font-family:'montserrat', sans-serif;
+    color:#ffff;
+    text-align : center;
+  }
+  .brand {
+    display: none;
+  }
+}
+@media screen and (max-width: 1293px) {
+  .vnav {
+    left: 37%;
+  }
+}
+@media screen and (max-width: 1232px) {
+  .vnav {
+    left: 34%;
+  }
+}
+@media screen and (max-width: 1205px) {
+  .vnav {
+    left: 30%;
+  }
+}
+@media screen and (max-width: 1188px) {
+  .vnav {
+    left: 25%;
+  }
 }
 @media screen and (max-width: 1193px) {
   .vnav  {
@@ -729,9 +791,8 @@ Animations
     position: absolute;
     float: right;
     list-style-type: none;
-    top: 20%;
+    /* top: 20%; */
     left: 42%;
-    margin-top: 20px;
   }
 }
 @media screen and (max-width: 1205px) {
@@ -741,7 +802,7 @@ Animations
     float: right;
     list-style-type: none;
     /* top: 20%; */
-    left: 42%;
+    left: 30%;
   }
 }
 @media screen and (max-width: 1119px) {
@@ -751,29 +812,20 @@ Animations
     float: right;
     list-style-type: none;
     /* top: 20%; */
-    left: 42%;
+    left: 27%;
   }
 }
-@media screen and (max-width: 1066px) {
+@media screen and (max-width: 1070px) {
   .vnav  {
     display: block;
     position: absolute;
     float: right;
     list-style-type: none;
     /* top: 20%; */
-    left: 40%;
+    left: 20%;
   }
 }
-@media screen and (max-width: 1068px) {
-  .vnav  {
-    display: block;
-    position: absolute;
-    float: right;
-    list-style-type: none;
-    /* top: 20%; */
-    left: 38%;
-  }
-}
+
 @media screen and (max-width: 1000px) {
   .vnav  {
     display: block;
@@ -781,31 +833,19 @@ Animations
     float: right;
     list-style-type: none;
     /* top: 20%; */
-    left: 35%;
   }
 }
-@media screen and (max-width: 955px) {
+@media screen and (max-width: 974px) {
   .vnav  {
     display: block;
     position: absolute;
     float: right;
     list-style-type: none;
     /* top: 20%; */
-    left: 30%;
+    left: 16%;
   }
 }
-@media screen and (max-width: 930px) {
-  .vnav  {
-    display: block;
-    position: absolute;
-    float: right;
-    list-style-type: none;
-    /* top: 20%; */
-    left: 30%;
-  }
-}
-
-@media screen and (max-width: 900px){
+@media screen and (max-width: 960px) {
   #btn {
     display: block;
   }
@@ -817,8 +857,32 @@ Animations
   }
 }
 
+@media screen and (max-width: 900px){
+
+}
+
 @media screen and (max-width: 550px){
   #date {
   top:40%;
+}
+.btn-left{
+  left: 28vw;
+}
+}
+@media screen and (max-width: 480px){
+  #date {
+  top:49%;
+}
+.btn-left{
+  left: 18vw;
+}
+}
+@media screen and (max-width: 330px){
+  #date {
+  top:49%;
+}
+.btn-left{
+  top: 94vh;
+  left: 11vw;
 }
 }
