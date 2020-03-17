@@ -198,7 +198,7 @@ h1:hover{
   overflow: hidden;
   position: relative;
   background-color: #86377b;
-  clip-path: circle(29% at 50% 35%);
+  clip-path: circle(26% at 50% 35%);
   transition: all .5s ease-in-out;
   cursor: pointer;
 }
@@ -330,4 +330,12 @@ body {
 .author:hover,
 .author:active {
   box-shadow: 0 0 10px #33333350;
-}
+
+
+
+
+  @media screen and (max-width: 405px) {
+    .our-team {
+    clip-path: circle(25% at 50% 35%);
+    }
+  }
