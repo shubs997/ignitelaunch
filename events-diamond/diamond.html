@@ -508,12 +508,7 @@ document.getElementById("opencoc").click();
 document.getElementById("openbc").click();
 // document.getElementById("defaultOpen3").click();
 // document.getElementById("Introduction5").style.display = 'block';
-document.getElementById("Introduction").style.display = 'block';
-document.getElementById("Introduction1").style.display = 'block';
-document.getElementById("Introduction2").style.display = 'block';
-document.getElementById("Introduction3").style.display = 'block';
-document.getElementById("Introduction4").style.display = 'block';
-document.getElementById("Introduction5").style.display = 'block';
+
 // No JQuery $('#Introduction5').show();
 	
 function openCity(evt, cityName) {
@@ -528,6 +523,13 @@ function openCity(evt, cityName) {
   }
   document.getElementById(cityName).style.display = "block";
   evt.currentTarget.className += " active";
+	
+  	document.getElementById("Introduction").style.display = 'block';
+	document.getElementById("Introduction1").style.display = 'block';
+	document.getElementById("Introduction2").style.display = 'block';
+	document.getElementById("Introduction3").style.display = 'block';
+	document.getElementById("Introduction4").style.display = 'block';
+	document.getElementById("Introduction5").style.display = 'block';
 }
 
 // Get the element with id="defaultOpen" and click on it
