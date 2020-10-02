@@ -507,7 +507,9 @@
 document.getElementById("opencoc").click();
 document.getElementById("openbc").click();
 document.getElementById("defaultOpen3").click();
-$('#Introduction5').show();
+document.getElementById("Introduction5").style.display = 'block';
+// No JQuery $('#Introduction5').show();
+	
 function openCity(evt, cityName) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
