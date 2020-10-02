@@ -386,9 +386,10 @@ nav.shift ul li a:hover:after {
 }
 
 .active:hover{
-  background-color: transparent;
+  background-color: transparent !important;
   color: #fff !important;
-  border: 2px solid #fff;
+  border: 2px solid #fff !important;
+  font-weight: normal !important;
 }
 
 /* .btn-main a{
