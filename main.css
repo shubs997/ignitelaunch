@@ -376,6 +376,16 @@ nav.shift ul li a:hover:after {
   transition: 0.3s;
   font-weight: bold;
 }
+
+.active{
+  background-color: #0cd1eb;
+  color: #000; 
+  border: none;
+  box-shadow: none;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
 /* .btn-main a{
   color: #fff;
   color: #000;
