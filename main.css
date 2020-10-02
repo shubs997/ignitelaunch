@@ -379,11 +379,16 @@ nav.shift ul li a:hover:after {
 
 .active{
   background-color: #0cd1eb;
-  color: #000; 
-  border: none;
+  color: #000 !important; 
+  border: none !important;
   box-shadow: none;
-  transition: 0.3s;
   font-weight: bold;
+}
+
+.active:hover{
+  background-color: transparent;
+  color: #fff !important;
+  border: 2px solid #fff;
 }
 
 /* .btn-main a{
